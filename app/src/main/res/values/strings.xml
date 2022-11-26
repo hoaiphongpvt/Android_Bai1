@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MODERN_ART_UI</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="grinfo">Nguyễn Võ Anh Pha - 3120410383\nGiang Chấn Phong - 3120410393\nNguyễn Hoài Phong - 3120410395\nNguyễn Hoàng Phúc - 3120410410</string>
+</resources>

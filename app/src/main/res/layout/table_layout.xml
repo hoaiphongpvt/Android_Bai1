@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayout"
+    android:background="@color/black">
+
+<!--   <TableRow-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <TextView-->
+<!--            android:id="@+id/view1"-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="350dp"-->
+<!--            android:background="#696CA2"-->
+<!--            android:layout_column="0"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/view2"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="350dp"-->
+<!--            android:background="#E70A0E"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_column="1"/>-->
+<!--    </TableRow>-->
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:id="@+id/view3"-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="350dp"-->
+<!--            android:background="#F68FC4"-->
+<!--            android:layout_marginTop="5dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/view4"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="350dp"-->
+<!--            android:background="#ECF1F1"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginLeft="5dp"/>-->
+<!--    </TableRow>-->
+
+    <TableLayout>
+        <TableRow>
+            <TableLayout>
+                <TableRow>
+                    <TextView
+                                android:id="@+id/view1"
+                                android:layout_width="170dp"
+                                android:layout_height="350dp"
+                                android:background="#696CA2" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                                android:id="@+id/view2"
+                                android:layout_width="170dp"
+                                android:layout_height="350dp"
+                                android:background="#E70A0E"
+                                android:layout_marginTop="5dp"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/view3"
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:background="#0E5B56"
+                        android:layout_marginLeft="5dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                                android:id="@+id/view4"
+                                android:layout_width="250dp"
+                                android:layout_height="230dp"
+                                android:background="#F68FC4"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/view5"
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:background="#ECF1F1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow>
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>

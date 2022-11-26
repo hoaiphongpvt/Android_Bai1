@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="119dp"
+        android:text="MODERN ART UI"
+        android:textColor="#2FD17B"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnTableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="239dp"
+        android:backgroundTint="#0CE0E4"
+        android:text="Table Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRelativeLayout" />
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#19DB1F"
+        android:text="Relative Layout"
+        app:layout_constraintBottom_toTopOf="@+id/btnTableLayout"
+        app:layout_constraintEnd_toEndOf="@+id/btnTableLayout"
+        app:layout_constraintStart_toStartOf="@+id/btnTableLayout"
+        app:layout_constraintTop_toBottomOf="@+id/btnLinearLayout" />
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#D71811"
+        android:text="Linear Layout"
+        app:layout_constraintBottom_toTopOf="@+id/btnRelativeLayout"
+        app:layout_constraintEnd_toEndOf="@+id/btnRelativeLayout"
+        app:layout_constraintStart_toStartOf="@+id/btnRelativeLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
